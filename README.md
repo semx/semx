@@ -61,17 +61,19 @@ I fix real, reproducible bugs in the tools I run in production — each with a *
 | --- | --- | --- | --- |
 | **symfony/symfony** | `Yaml` parsed `.nan` as `+INF` and never round-tripped `NAN` | [#64915](https://github.com/symfony/symfony/pull/64915) | ✅ Merged |
 | **symfony/symfony** | ISBN-10 validator accepted a misplaced `X` check character | [#64877](https://github.com/symfony/symfony/pull/64877) | ✅ Merged |
+| **symfony/symfony** | `ProxyCacheWarmer` crashed on non-`.php` files in the proxy cache dir | [#64847](https://github.com/symfony/symfony/pull/64847) | ✅ Merged |
 | **laravel/framework** | `Number::forHumans()` returned `"-0"` for tiny negatives | [#60736](https://github.com/laravel/framework/pull/60736) | ✅ Merged |
 | **ansible/ansible** | `is_netmask` accepted non-contiguous (invalid) netmasks | [#87235](https://github.com/ansible/ansible/pull/87235) | ✅ Merged |
 | **ansible/ansible** | Uncaught `OverflowError` in `check_type_int` for `inf` | [#87253](https://github.com/ansible/ansible/pull/87253) | ✅ Merged |
 | **argoproj/argo-cd** | Surface the `Suspended` condition message for suspended Jobs | [#28738](https://github.com/argoproj/argo-cd/pull/28738) | ✅ Merged |
+| **spinnaker/spinnaker** | `libdiffs` mis-ordered versions with differing component counts | [#7805](https://github.com/spinnaker/spinnaker/pull/7805) | ✅ Merged |
+| **spinnaker/spinnaker** | Packer `-var` values `false` / `0` were silently dropped | [#7806](https://github.com/spinnaker/spinnaker/pull/7806) | ✅ Merged |
 | **nodejs/node** | `assert.deepStrictEqual` `TypeError` on a null `Map` key / `Set` member | [#64449](https://github.com/nodejs/node/pull/64449) | 🟢 Approved |
 | **kubernetes/kubernetes** | `Quantity.String()` dropped the suffix for DecimalSI above 10¹⁸ | [#140459](https://github.com/kubernetes/kubernetes/pull/140459) | ⏳ Open |
 | **kubernetes/kubernetes** | Label `Gt`/`Lt` selectors silently dropped values above int64 | [#140462](https://github.com/kubernetes/kubernetes/pull/140462) | ⏳ Open |
-| **hashicorp/terraform** | Clean error from `log()`/`pow()` when the result is `NaN` | [#38883](https://github.com/hashicorp/terraform/pull/38883) | ⏳ Open |
 | **python-humanize/humanize** | `fractional()` emitted degenerate output (`"2 1/1"`) on whole-rounding | [#354](https://github.com/python-humanize/humanize/pull/354) | ⏳ Open |
 
-<sub>Selected — more across Symfony, Kubernetes, docker-py, croniter, Spinnaker.</sub>
+<sub>Selected — more across Kubernetes, Ansible, docker-py, croniter.</sub>
 
 ---
 
