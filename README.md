@@ -34,7 +34,7 @@ Senior infrastructure engineer with **10+ years** building and operating product
 
 - 🛠️ Modernizing legacy workloads into Dockerized services on **Kubernetes / AWS EKS**; Kubernetes in production since **2022**.
 - 📈 Track record of **99.95% uptime** SLAs, deployment time cut **45 → 12 min**, and **−30% incident MTTR**.
-- 🔎 Read source, not just docs — [Kubernetes `kubelet` security research](https://github.com/kubernetes/kubernetes) (subPath traversal, authorization bypass, `ImageVolume`, Pod resource consistency).
+- 🔎 Read source, not just docs — [Kubernetes `kubelet` security research](https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Asemx) (subPath traversal, authorization bypass, `ImageVolume`, Pod resource consistency).
 
 ---
 
@@ -55,10 +55,13 @@ Senior infrastructure engineer with **10+ years** building and operating product
 
 ### Open-source contributions
 
-I fix real, reproducible bugs in the tools I run in production — each with a **failing test and a root-cause writeup**. The same class of bug shows up across Go, Python, PHP and JS; reproducing and root-causing it is the transferable skill.
+**26 merged pull requests** across upstream projects. I fix real, reproducible bugs in the tools I run in production — each with a **failing test and a root-cause writeup**. The same class of bug shows up across Go, Python, PHP and JS; reproducing and root-causing it is the transferable skill.
 
 | Project | Contribution | PR | Status |
 | --- | --- | --- | --- |
+| **pallets-eco/croniter** | DOM/DOW union aborted when only the day-of-month half was unsatisfiable | [#243](https://github.com/pallets-eco/croniter/pull/243) | ✅ Merged |
+| **goreleaser/goreleaser** | `goarm64` validation regex was unanchored and accepted junk values | [#6727](https://github.com/goreleaser/goreleaser/pull/6727) | ✅ Merged |
+| **hashicorp/terraform** | `log()`/`pow()` panicked on NaN results — fixed upstream in 1.17 | [#38888](https://github.com/hashicorp/terraform/issues/38888) | ✅ Fixed |
 | **symfony/symfony** | `Yaml` parsed `.nan` as `+INF` and never round-tripped `NAN` | [#64915](https://github.com/symfony/symfony/pull/64915) | ✅ Merged |
 | **symfony/symfony** | ISBN-10 validator accepted a misplaced `X` check character | [#64877](https://github.com/symfony/symfony/pull/64877) | ✅ Merged |
 | **symfony/symfony** | `ProxyCacheWarmer` crashed on non-`.php` files in the proxy cache dir | [#64847](https://github.com/symfony/symfony/pull/64847) | ✅ Merged |
@@ -72,8 +75,10 @@ I fix real, reproducible bugs in the tools I run in production — each with a *
 | **kubernetes/kubernetes** | `Quantity.String()` dropped the suffix for DecimalSI above 10¹⁸ | [#140459](https://github.com/kubernetes/kubernetes/pull/140459) | ⏳ Open |
 | **kubernetes/kubernetes** | Label `Gt`/`Lt` selectors silently dropped values above int64 | [#140462](https://github.com/kubernetes/kubernetes/pull/140462) | ⏳ Open |
 | **python-humanize/humanize** | `fractional()` emitted degenerate output (`"2 1/1"`) on whole-rounding | [#354](https://github.com/python-humanize/humanize/pull/354) | ⏳ Open |
+| **argoproj/argo-rollouts** | `int32` overflow produced negative canary replica counts | [#4923](https://github.com/argoproj/argo-rollouts/pull/4923) | ⏳ Open |
+| **go-task/task** | Templated `dir:` left dynamic `sh:` vars running in the wrong directory | [#2944](https://github.com/go-task/task/pull/2944) | ⏳ Open |
 
-<sub>Selected — more across Kubernetes, Ansible, docker-py, croniter.</sub>
+<sub>Selected — more across Kubernetes, Ansible, argo-workflows, act, actionlint, docker-py.</sub>
 
 ---
 
