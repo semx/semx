@@ -21,7 +21,7 @@
 
 <a href="https://sannikov.dev"><img src="https://img.shields.io/badge/Website-sannikov.dev-1F6FEB?style=for-the-badge&labelColor=0D1117"/></a>
 <a href="mailto:sergey@sannikov.dev"><img src="https://img.shields.io/badge/Email-sergey@sannikov.dev-0D1117?style=for-the-badge&logo=maildotru&logoColor=58A6FF"/></a>
-<a href="https://t.me/GreySergo"><img src="https://img.shields.io/badge/Telegram-@GreySergo-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4"/></a>
+<a href="https://t.me/sannikovdev"><img src="https://img.shields.io/badge/Telegram-@sannikovdev-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4"/></a>
 <img src="https://img.shields.io/badge/Yerevan,%20Armenia-0D1117?style=for-the-badge&logo=googlemaps&logoColor=EA4335"/>
 
 </div>
