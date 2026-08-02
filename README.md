@@ -55,28 +55,28 @@ Senior infrastructure engineer with **10+ years** building and operating product
 
 ### Open-source contributions
 
-**26 merged pull requests** across upstream projects. I fix real, reproducible bugs in the tools I run in production — each with a **failing test and a root-cause writeup**. The same class of bug shows up across Go, Python, PHP and JS; reproducing and root-causing it is the transferable skill.
+**11 merged pull requests** in upstream projects, plus reports fixed by maintainers upstream. I fix real, reproducible bugs in the tools I run in production — each with a **failing test and a root-cause writeup**. The same class of bug shows up across Go, Python, PHP and JS; reproducing and root-causing it is the transferable skill.
 
-| Project | Contribution | PR | Status |
+| Project | Contribution | PR | State |
 | --- | --- | --- | --- |
-| **pallets-eco/croniter** | DOM/DOW union aborted when only the day-of-month half was unsatisfiable | [#243](https://github.com/pallets-eco/croniter/pull/243) | ✅ Merged |
-| **goreleaser/goreleaser** | `goarm64` validation regex was unanchored and accepted junk values | [#6727](https://github.com/goreleaser/goreleaser/pull/6727) | ✅ Merged |
-| **hashicorp/terraform** | `log()`/`pow()` panicked on NaN results — fixed upstream in 1.17 | [#38888](https://github.com/hashicorp/terraform/issues/38888) | ✅ Fixed |
-| **symfony/symfony** | `Yaml` parsed `.nan` as `+INF` and never round-tripped `NAN` | [#64915](https://github.com/symfony/symfony/pull/64915) | ✅ Merged |
-| **symfony/symfony** | ISBN-10 validator accepted a misplaced `X` check character | [#64877](https://github.com/symfony/symfony/pull/64877) | ✅ Merged |
-| **symfony/symfony** | `ProxyCacheWarmer` crashed on non-`.php` files in the proxy cache dir | [#64847](https://github.com/symfony/symfony/pull/64847) | ✅ Merged |
-| **laravel/framework** | `Number::forHumans()` returned `"-0"` for tiny negatives | [#60736](https://github.com/laravel/framework/pull/60736) | ✅ Merged |
-| **ansible/ansible** | `is_netmask` accepted non-contiguous (invalid) netmasks | [#87235](https://github.com/ansible/ansible/pull/87235) | ✅ Merged |
-| **ansible/ansible** | Uncaught `OverflowError` in `check_type_int` for `inf` | [#87253](https://github.com/ansible/ansible/pull/87253) | ✅ Merged |
-| **argoproj/argo-cd** | Surface the `Suspended` condition message for suspended Jobs | [#28738](https://github.com/argoproj/argo-cd/pull/28738) | ✅ Merged |
-| **spinnaker/spinnaker** | `libdiffs` mis-ordered versions with differing component counts | [#7805](https://github.com/spinnaker/spinnaker/pull/7805) | ✅ Merged |
-| **spinnaker/spinnaker** | Packer `-var` values `false` / `0` were silently dropped | [#7806](https://github.com/spinnaker/spinnaker/pull/7806) | ✅ Merged |
-| **nodejs/node** | `assert.deepStrictEqual` `TypeError` on a null `Map` key / `Set` member | [#64449](https://github.com/nodejs/node/pull/64449) | 🟢 Approved |
-| **kubernetes/kubernetes** | `Quantity.String()` dropped the suffix for DecimalSI above 10¹⁸ | [#140459](https://github.com/kubernetes/kubernetes/pull/140459) | ⏳ Open |
-| **kubernetes/kubernetes** | Label `Gt`/`Lt` selectors silently dropped values above int64 | [#140462](https://github.com/kubernetes/kubernetes/pull/140462) | ⏳ Open |
-| **python-humanize/humanize** | `fractional()` emitted degenerate output (`"2 1/1"`) on whole-rounding | [#354](https://github.com/python-humanize/humanize/pull/354) | ⏳ Open |
-| **argoproj/argo-rollouts** | `int32` overflow produced negative canary replica counts | [#4923](https://github.com/argoproj/argo-rollouts/pull/4923) | ⏳ Open |
-| **go-task/task** | Templated `dir:` left dynamic `sh:` vars running in the wrong directory | [#2944](https://github.com/go-task/task/pull/2944) | ⏳ Open |
+| **pallets-eco/croniter** | DOM/DOW union aborted when only the day-of-month half was unsatisfiable | [#243](https://github.com/pallets-eco/croniter/pull/243) | ![](https://img.shields.io/github/issues/detail/state/pallets-eco/croniter/243?style=flat-square&label=) |
+| **goreleaser/goreleaser** | `goarm64` validation regex was unanchored and accepted junk values | [#6727](https://github.com/goreleaser/goreleaser/pull/6727) | ![](https://img.shields.io/github/issues/detail/state/goreleaser/goreleaser/6727?style=flat-square&label=) |
+| **hashicorp/terraform** | `log()`/`pow()` panicked on NaN results — fixed upstream in 1.17 | [#38888](https://github.com/hashicorp/terraform/issues/38888) | ![](https://img.shields.io/github/issues/detail/state/hashicorp/terraform/38888?style=flat-square&label=) |
+| **symfony/symfony** | `Yaml` parsed `.nan` as `+INF` and never round-tripped `NAN` | [#64915](https://github.com/symfony/symfony/pull/64915) | ![](https://img.shields.io/github/issues/detail/state/symfony/symfony/64915?style=flat-square&label=) |
+| **symfony/symfony** | ISBN-10 validator accepted a misplaced `X` check character | [#64877](https://github.com/symfony/symfony/pull/64877) | ![](https://img.shields.io/github/issues/detail/state/symfony/symfony/64877?style=flat-square&label=) |
+| **symfony/symfony** | `ProxyCacheWarmer` crashed on non-`.php` files in the proxy cache dir | [#64847](https://github.com/symfony/symfony/pull/64847) | ![](https://img.shields.io/github/issues/detail/state/symfony/symfony/64847?style=flat-square&label=) |
+| **laravel/framework** | `Number::forHumans()` returned `"-0"` for tiny negatives | [#60736](https://github.com/laravel/framework/pull/60736) | ![](https://img.shields.io/github/issues/detail/state/laravel/framework/60736?style=flat-square&label=) |
+| **ansible/ansible** | `is_netmask` accepted non-contiguous (invalid) netmasks | [#87235](https://github.com/ansible/ansible/pull/87235) | ![](https://img.shields.io/github/issues/detail/state/ansible/ansible/87235?style=flat-square&label=) |
+| **ansible/ansible** | Uncaught `OverflowError` in `check_type_int` for `inf` | [#87253](https://github.com/ansible/ansible/pull/87253) | ![](https://img.shields.io/github/issues/detail/state/ansible/ansible/87253?style=flat-square&label=) |
+| **argoproj/argo-cd** | Surface the `Suspended` condition message for suspended Jobs | [#28738](https://github.com/argoproj/argo-cd/pull/28738) | ![](https://img.shields.io/github/issues/detail/state/argoproj/argo-cd/28738?style=flat-square&label=) |
+| **spinnaker/spinnaker** | `libdiffs` mis-ordered versions with differing component counts | [#7805](https://github.com/spinnaker/spinnaker/pull/7805) | ![](https://img.shields.io/github/issues/detail/state/spinnaker/spinnaker/7805?style=flat-square&label=) |
+| **spinnaker/spinnaker** | Packer `-var` values `false` / `0` were silently dropped | [#7806](https://github.com/spinnaker/spinnaker/pull/7806) | ![](https://img.shields.io/github/issues/detail/state/spinnaker/spinnaker/7806?style=flat-square&label=) |
+| **nodejs/node** | `assert.deepStrictEqual` `TypeError` on a null `Map` key / `Set` member | [#64449](https://github.com/nodejs/node/pull/64449) | ![](https://img.shields.io/github/issues/detail/state/nodejs/node/64449?style=flat-square&label=) |
+| **kubernetes/kubernetes** | `Quantity.String()` dropped the suffix for DecimalSI above 10¹⁸ | [#140459](https://github.com/kubernetes/kubernetes/pull/140459) | ![](https://img.shields.io/github/issues/detail/state/kubernetes/kubernetes/140459?style=flat-square&label=) |
+| **kubernetes/kubernetes** | Label `Gt`/`Lt` selectors silently dropped values above int64 | [#140462](https://github.com/kubernetes/kubernetes/pull/140462) | ![](https://img.shields.io/github/issues/detail/state/kubernetes/kubernetes/140462?style=flat-square&label=) |
+| **python-humanize/humanize** | `fractional()` emitted degenerate output (`"2 1/1"`) on whole-rounding | [#354](https://github.com/python-humanize/humanize/pull/354) | ![](https://img.shields.io/github/issues/detail/state/python-humanize/humanize/354?style=flat-square&label=) |
+| **argoproj/argo-rollouts** | `int32` overflow produced negative canary replica counts | [#4923](https://github.com/argoproj/argo-rollouts/pull/4923) | ![](https://img.shields.io/github/issues/detail/state/argoproj/argo-rollouts/4923?style=flat-square&label=) |
+| **go-task/task** | Templated `dir:` left dynamic `sh:` vars running in the wrong directory | [#2944](https://github.com/go-task/task/pull/2944) | ![](https://img.shields.io/github/issues/detail/state/go-task/task/2944?style=flat-square&label=) |
 
 <sub>Selected — more across Kubernetes, Ansible, argo-workflows, act, actionlint, docker-py.</sub>
 
