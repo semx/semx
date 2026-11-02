@@ -22,15 +22,15 @@ Member of the [kubernetes-sigs](https://github.com/kubernetes-sigs) and [etcd-io
 I fix bugs in the tools I run in production. Each change starts from a reproduction, ships with a regression test, and explains the root cause in the pull request.
 
 <!-- contributions:start -->
-<a href="https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20-user%3Asemx"><img src="https://img.shields.io/badge/merged_PRs-80-2EA043?style=flat-square&labelColor=0D1117"/></a> <img src="https://img.shields.io/badge/projects-25-1F6FEB?style=flat-square&labelColor=0D1117"/> <img src="https://img.shields.io/badge/upstream_stars-531.1k-E3B341?style=flat-square&labelColor=0D1117"/>
+<a href="https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20-user%3Asemx"><img src="https://img.shields.io/badge/merged_PRs-87-2EA043?style=flat-square&labelColor=0D1117"/></a> <img src="https://img.shields.io/badge/projects-25-1F6FEB?style=flat-square&labelColor=0D1117"/> <img src="https://img.shields.io/badge/upstream_stars-531.6k-E3B341?style=flat-square&labelColor=0D1117"/>
 
 | | Project | ★ | Language | Merged |
 | :-: | --- | --: | --- | --: |
-| <img src="https://avatars.githubusercontent.com/u/771836?v=4&s=40" width="20" height="20"/> | [bb-Ricardo/netbox-sync](https://github.com/bb-Ricardo/netbox-sync) · <sub>maintainer</sub> | 417 | Python | [34](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Abb-Ricardo/netbox-sync) |
+| <img src="https://avatars.githubusercontent.com/u/771836?v=4&s=40" width="20" height="20"/> | [bb-Ricardo/netbox-sync](https://github.com/bb-Ricardo/netbox-sync) · <sub>maintainer</sub> | 417 | Python | [41](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Abb-Ricardo/netbox-sync) |
 | <img src="https://avatars.githubusercontent.com/u/12159026?v=4&s=40" width="20" height="20"/> | [ccremer/kubernetes-zfs-provisioner](https://github.com/ccremer/kubernetes-zfs-provisioner) | 95 | Go | [5](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Accremer/kubernetes-zfs-provisioner) |
-| <img src="https://avatars.githubusercontent.com/u/13629408?v=4&s=40" width="20" height="20"/> | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 128.7k | Go | [4](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Akubernetes/kubernetes) |
-| <img src="https://avatars.githubusercontent.com/u/9950313?v=4&s=40" width="20" height="20"/> | [nodejs/node](https://github.com/nodejs/node) | 123.1k | JavaScript | [1](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Anodejs/node) |
-| <img src="https://avatars.githubusercontent.com/u/1507452?v=4&s=40" width="20" height="20"/> | [ansible/ansible](https://github.com/ansible/ansible) | 71.1k | Python | [2](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Aansible/ansible) |
+| <img src="https://avatars.githubusercontent.com/u/13629408?v=4&s=40" width="20" height="20"/> | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 128.8k | Go | [4](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Akubernetes/kubernetes) |
+| <img src="https://avatars.githubusercontent.com/u/9950313?v=4&s=40" width="20" height="20"/> | [nodejs/node](https://github.com/nodejs/node) | 123.2k | JavaScript | [1](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Anodejs/node) |
+| <img src="https://avatars.githubusercontent.com/u/1507452?v=4&s=40" width="20" height="20"/> | [ansible/ansible](https://github.com/ansible/ansible) | 71.2k | Python | [2](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Aansible/ansible) |
 | <img src="https://avatars.githubusercontent.com/u/958072?v=4&s=40" width="20" height="20"/> | [laravel/framework](https://github.com/laravel/framework) | 35k | PHP | [1](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Alaravel/framework) |
 | <img src="https://avatars.githubusercontent.com/u/143937?v=4&s=40" width="20" height="20"/> | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | PHP | [6](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Asymfony/symfony) |
 | <img src="https://avatars.githubusercontent.com/u/30269780?v=4&s=40" width="20" height="20"/> | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.5k | Go | [1](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Asemx%20repo%3Aargoproj/argo-cd) |
@@ -50,7 +50,7 @@ I fix bugs in the tools I run in production. Each change starts from a reproduct
 
 Smaller projects: [python-humanize/humanize](https://github.com/python-humanize/humanize) 1 · [pallets-eco/croniter](https://github.com/pallets-eco/croniter) 1 · [gnachman/iTerm2-shell-integration](https://github.com/gnachman/iTerm2-shell-integration) 1 · [Senora-dev/aquifer-ai](https://github.com/Senora-dev/aquifer-ai) 1
 
-<sub>Merged pull requests to repositories I don't own, from the GitHub search API; refreshed weekly by <code>.github/workflows/contributions.yml</code>, last run 2026-10-26.</sub>
+<sub>Merged pull requests to repositories I don't own, from the GitHub search API; refreshed weekly by <code>.github/workflows/contributions.yml</code>, last run 2026-11-02.</sub>
 <!-- contributions:end -->
 
 **Highlights**
